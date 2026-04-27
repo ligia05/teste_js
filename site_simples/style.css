@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(201, 201, 211, 0.479);
+}
+
+header {
+  color: rgb(208, 204, 208);
+  background-color: rgb(53, 5, 61);
+  height: 5rem;
+  font-family: "Roboto", sans-serif;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.campo {
+  height: 1.5rem;
+  border-radius: 0.5rem;
+}
+.botao {
+  display: block;
+  margin-left: 1.5rem;
+  width: 6rem;
+  height: 2rem;
+  border-radius: 0.6rem;
+}

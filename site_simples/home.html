@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/site_simples/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>imprimindo</title>
+</head>
+<script src="script.js"></script>
+<header>
+    <h1 class="titulo">Verificação de notas escolar sexto ano</h1>
+</header>
+
+<body>
+
+    <form action="#" method="post">
+        <label for="Nome"> Nome: </label><br>
+        <input type="text" id="nome" name="nome" class="campo"> <br> <br>
+
+        <label for="Bimestre"> Bimestre: </label><br>
+        <input type="text" id="bimestre" name="bimestre" class="campo"> <br> <br>
+
+        <label for="Matéria"> Matéria: </label><br>
+        <input type="text" id="materia" name="materia" class="campo"> <br> <br>
+
+        <label for="Notas"> Notas: </label><br>
+        <input type="number" id="nota" name="nota" class="campo"> <br> <br>
+
+        <button type="button" onclick="verificarNota()" class="botao">Verificar</button>
+
+        <p id="resultado"></p>
+
+    </form>
+</body>
+
+</html>
